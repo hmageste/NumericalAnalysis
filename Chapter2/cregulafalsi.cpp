@@ -1,8 +1,6 @@
 #include "cregulafalsi.h"
 #include "cmath"
 
-using namespace std;
-
 CRegulaFalsi::CRegulaFalsi()
     : lsvalue(0.0)
     , rsvalue(0.0)
