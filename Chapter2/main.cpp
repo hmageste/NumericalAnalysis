@@ -23,10 +23,10 @@ double df1( double x )
 
 int main( int argc, char* argv[] )
 {
-    double error = 1e-5;
+    double error = 1e-6;
     //CBissection teste( 1.0, 3.0, f );
     //CRegulaFalsi teste( 0.0, 3.1416/2.0, f1 );
-    CNewtonRaphson teste( 2.0, f1, df1 );
+    CNewtonRaphson teste( 0.0, f1, df1 );
     std::cout << teste.getRoot( error ) << std::endl;
 
     return 0;
